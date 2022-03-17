@@ -1,4 +1,7 @@
 {
+  "name": "technical-date",
+  "description": "Full-stack web application for blogging, built with Next.js",
+  "author": "Mohammad Abdul Ahad Chowdhury <ahad@maacpiash.com> (https://www.maacpiash.com)",
   "private": true,
   "scripts": {
     "dev": "next",
