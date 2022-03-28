@@ -15,5 +15,10 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-export type { IEntity } from './IEntity'
-export type { Blog } from './blog'
+import { IEntity } from './IEntity'
+
+export interface Blog extends IEntity {
+  title: string
+  date: Date
+  content: string
+}
