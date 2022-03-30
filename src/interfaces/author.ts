@@ -16,11 +16,12 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 import { IEntity } from './IEntity'
-import { Author } from './author'
 
-export interface Blog extends IEntity {
-  title: string
-  date: Date
-  content: string
-  author: Author
+export interface Author extends IEntity {
+  username: string
+  name: string
+  email: string
+  bio: string
+  photoUrl: string
+  website: string
 }

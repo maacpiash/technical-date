@@ -17,3 +17,4 @@
  */
 export type { IEntity } from './IEntity'
 export type { Blog } from './blog'
+export type { Author } from './author'
