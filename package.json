@@ -14,8 +14,8 @@
   "dependencies": {
     "mongodb": "^4.4.1",
     "next": "^12.1.1",
-    "react": "18.0.0-rc.3",
-    "react-dom": "18.0.0-rc.3"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
