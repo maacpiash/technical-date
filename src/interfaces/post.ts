@@ -15,10 +15,11 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-import { IEntity } from './IEntity'
+import { ObjectId } from 'mongodb'
 import { Author } from './author'
 
-export interface Post extends IEntity {
+export interface Post {
+  id: ObjectId
   title: string
   date: Date
   content: string

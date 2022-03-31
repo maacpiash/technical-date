@@ -15,6 +15,5 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-export type { IEntity } from './IEntity'
 export type { Post } from './post'
 export type { Author } from './author'
