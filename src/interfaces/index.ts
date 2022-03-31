@@ -16,5 +16,5 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 export type { IEntity } from './IEntity'
-export type { Blog } from './post'
+export type { Post } from './post'
 export type { Author } from './author'

@@ -18,7 +18,7 @@
 import { IEntity } from './IEntity'
 import { Author } from './author'
 
-export interface Blog extends IEntity {
+export interface Post extends IEntity {
   title: string
   date: Date
   content: string
