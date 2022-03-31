@@ -17,13 +17,12 @@
  */
 import { ObjectId } from 'mongodb'
 import { Author } from './author'
-import { Comment } from './comment'
 
-export interface Post {
+export interface Comment {
   id: ObjectId
-  title: string
   date: Date
   content: string
   author: Author
+  parent: ObjectId
   children: Comment[]
 }

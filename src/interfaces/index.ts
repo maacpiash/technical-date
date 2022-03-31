@@ -17,3 +17,4 @@
  */
 export type { Post } from './post'
 export type { Author } from './author'
+export type { Comment } from './comment'
