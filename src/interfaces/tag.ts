@@ -16,16 +16,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 import { ObjectId } from 'mongodb'
-import { Author } from './author'
-import { Comment } from './comment'
-import { Tag } from './tag'
 
-export interface Post {
+export interface Tag {
   id: ObjectId
-  title: string
-  date: Date
-  content: string
-  author: Author
-  children: Comment[]
-  tags: Tag[]
+  value: string
 }
